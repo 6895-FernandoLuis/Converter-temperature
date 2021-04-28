@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+     <title>13.FernandoLuis_XTKJ2</title>  
+     <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1 >Temperature</h1>
+<label for="inputNumber">Number :</label>
+<input type="number" name="inputNumber" placeholder="input number" oninput="temmperatureConverter(this.value)">
+
+    <h3>Celcius : <span id="celciusNumber"></span></h3>
+    <h3>Fahrenheit : <span id="FahrenheitNumber"></span></h3>
+    <h3>Kelvin : <span id="kelvinNumber"></span></h3>
+    <script>
+ function temperatureConverter(valueNumber){
+
+ValueNumber= parseFloat(valueFahrenheit);
+document.getElementById("FahrenheitNumber").innerHTML=(ValueNumber+0)
+
+ValueNumber= parseFloat(valueNumber);
+document.getElementById("celciusNumber").innerHTML=(ValueNumber-32)/1.8
+
+ValueNumber= parseFloat(valueNumber);
+document.getElementById("kelvinNumber").innerHTML=((ValueNumber-32)/1.8)+273.15
+
+ }
+
+        
+    </script>
+</body>
+</html>
