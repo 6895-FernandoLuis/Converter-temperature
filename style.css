@@ -1,0 +1,28 @@
+body{
+    background-color:white;
+}
+.container{
+    background-color: black;
+    width: 190px;
+    padding: 10px;
+}
+.name{
+    color:white;
+    font-size:25px;
+   text-align: center;
+}
+.celcius{
+    background-color: blue;
+    width: 170px;
+  
+}
+.fahrenheit{
+    background-color: green;
+    width: 170px;
+
+}
+.kelvin{
+    background-color: red;
+    width: 170px;
+
+}
