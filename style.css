@@ -5,7 +5,23 @@ body{
     background-color: black;
     width: 190px;
     padding: 10px;
+    color:white;
 }
+.container2{
+    background-color: black;
+    width: 190px;
+    padding: 10px;
+    margin-top:50px;
+    color:white;
+}
+.container3{
+    background-color: black;
+    width: 190px;
+    padding: 10px;
+    margin-top:50px;
+    color:white;
+}
+
 .name{
     color:white;
     font-size:25px;
